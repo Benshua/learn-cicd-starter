@@ -1,4 +1,5 @@
-name: ci
+name: go CI
+run-name: keep working on it
 
 on:
   pull_request:
