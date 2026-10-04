@@ -25,8 +25,8 @@ type apiConfig struct {
 var staticFiles embed.FS
 
 func unused() {
-    // this function does nothing
-    // and is called nowhere
+	// this function does nothing
+	// and is called nowhere
 }
 
 func main() {
@@ -57,8 +57,6 @@ func main() {
 		apiCfg.DB = dbQueries
 		log.Println("Connected to database!")
 	}
-
-	
 
 	router := chi.NewRouter()
 
